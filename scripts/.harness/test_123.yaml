@@ -1,0 +1,17 @@
+connector:
+  name: test 123
+  identifier: test_123
+  description:
+  orgIdentifier: default
+  projectIdentifier: try_project
+  type: K8sCluster
+  spec:
+    credential:
+      type: ManualConfig
+      spec:
+        masterUrl: cddff
+        auth:
+          type: UsernamePassword
+          spec:
+            username: dfdfd
+            passwordRef: reettest
